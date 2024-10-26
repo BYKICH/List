@@ -11,7 +11,6 @@ if list_create == "create":
         i += 1
         if num == "stop":
             list1.pop()
-            # agree = input("withdraw list? ")
             print(list1)
             sort = input("Sort list? ")
             if sort == "no":
